@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import { navigate } from "@reach/router";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 const Login = () => {
@@ -27,14 +28,16 @@ const Login = () => {
       [name]: value,
     });
   };
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    axios.post("http://66.228.56.214:3000/auth/login", login).then((res) => {
-      console.log(res.data);
-      if (res.status === 200) {
-        history.push("/dashboard");
-      }
-    });
+    await axios
+      .post("http://66.228.56.214:3000/auth/login", login)
+      .then((res) => {
+        console.log(res.data);
+        if (res.status === 200) {
+          history.push("/dashboard");
+        }
+      });
   };
   return (
     <div
