@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory, Link } from "react-router-dom";
 // import { toast } from "react-toastify";
 // import { navigate } from "@reach/router";
@@ -28,7 +28,7 @@ const Login = () => {
       [name]: value,
     });
   };
-  const handleSubmit = async (event) => {
+  let handleSubmit = async (event) => {
     event.preventDefault();
     await axios
       .post("http://66.228.56.214:3000/auth/login", login)
@@ -39,6 +39,10 @@ const Login = () => {
         }
       });
   };
+  // useEffect(() => {
+  //   handleSubmit();
+  // }, [login]);
+
   return (
     <div
       style={{
