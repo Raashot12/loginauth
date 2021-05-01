@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
-import { toast } from "react-toastify";
-import { navigate } from "@reach/router";
+// import { toast } from "react-toastify";
+// import { navigate } from "@reach/router";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 const Login = () => {
@@ -16,11 +16,11 @@ const Login = () => {
   //   const [user, setUser] = useState(null);
   const history = useHistory();
 
-  const notify = () => {
-    toast.success("Congratulation you have Login Successfully", {
-      position: toast.POSITION.TOP_CENTER,
-    });
-  };
+  // const notify = () => {
+  //   toast.success("Congratulation you have Login Successfully", {
+  //     position: toast.POSITION.TOP_CENTER,
+  //   });
+  // };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setLogin({
@@ -35,7 +35,7 @@ const Login = () => {
       .then((res) => {
         console.log(res.data);
         if (res.status === 200) {
-          history.push("/dashboard");
+          history.push("/signup");
         }
       });
   };
