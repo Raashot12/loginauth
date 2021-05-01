@@ -1,0 +1,345 @@
+.active {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: #4f88c7;
+}
+.nonactive {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #d8d8d8;
+}
+
+.backg-carousel {
+  background: #e6f7ff;
+  padding-top: 6rem;
+}
+.carousel-listener-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#circle-event-space {
+  margin-right: 0.6rem;
+}
+
+.carousel-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.2666666805744171px;
+  text-align: left;
+  color: #6e6e6e;
+  padding-top: 4rem;
+  padding-right: 1.5rem;
+}
+.name-title {
+  position: absolute;
+  bottom: 0;
+}
+.carousel-name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.2666666805744171px;
+  text-align: left;
+  color: #6e6e6e;
+  margin: 0;
+  padding: 0;
+}
+.carousel-title-position {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.23333333432674408px;
+  text-align: left;
+  color: #20b8eb;
+  margin-top: 0;
+  padding-top: 0;
+}
+/* Careers Job Component Styling */
+.text-center-careers {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.paragraghjob {
+  text-align: center;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3333333432674408px;
+  text-align: center;
+}
+.textalljob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interested-border {
+  border: 1px solid #4f88c7;
+}
+.switchpanel {
+  height: 1049px;
+  width: 25%;
+  left: 0px;
+  top: 784px;
+  background-color: #4f88c7;
+}
+
+.job-status-click {
+  height: 93px;
+  width: 100%;
+  left: 1px;
+  top: 785px;
+  color: #4f88c7;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 1rem;
+}
+.job-status-click1 {
+  height: 93px;
+  width: 100%;
+  left: 1px;
+  top: 785px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  border-bottom: 1.8px solid white;
+  margin: 0;
+  cursor: pointer;
+}
+.job-status-click {
+  background-color: white;
+  height: 93px;
+  width: 100%;
+  left: 1px;
+  top: 785px;
+  color: #4f88c7;
+  background-color: white;
+  cursor: pointer;
+}
+.hover-text-size {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  line-height: 57px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.text-jurisdiction-what-we-need {
+  width: 70%;
+  margin-left: 5%;
+  padding-top: 2%;
+}
+.text-jurisdiction-what-we-need .what-we-need-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3333333432674408px;
+}
+.responsibiliity {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3333333432674408px;
+}
+.requirement {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3333333432674408px;
+}
+.application {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.3333333432674408px;
+}
+.bk-jobform {
+  background-color: white;
+  height: 504px;
+  width: 100%;
+  position: relative;
+}
+.form-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #e7e7e7;
+  height: 304px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+}
+.stay-updated {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.6000000238418579px;
+  width: 66%;
+  color: #6e6e6e;
+  margin-bottom: 2rem;
+}
+.btn-signup {
+  background: linear-gradient(180deg, #43ddf7 0%, #20b8eb 100%);
+  display: block;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 159px;
+  left: 694px;
+  top: 173px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.btn-signup:hover {
+  transform: translateY(0px);
+  background-color: transparent;
+}
+.btn-signup:active {
+  transform: translateY(-1px);
+  border: 1px solid red;
+  color: red;
+}
+.btn-input-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.success-message {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: green;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+::placeholder {
+  padding-left: 0.5rem;
+  font-weight: lighter im !important;
+}
+
+#input-field-signup-boxshadow:focus {
+  outline: none !important;
+  border-color: #20b8eb;
+  box-shadow: 0 0 10px #20b8eb;
+}
+.input-field-signup {
+  max-width: 100%;
+  width: 550px;
+  border: 1px solid gray;
+  outline: none;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: bold;
+  font-weight: bold;
+}
+.header-navbar {
+  background-color: #6e6e6e;
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.header-navbar h1 {
+  flex: 1;
+  margin-left: 1.5rem;
+}
+.header-navbar nav li {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+/* Media Query Testimonial & Carousel Page */
+
+@media screen and (max-width: 576px) {
+  .carousel-text {
+    padding-top: 2rem;
+    margin-bottom: 6rem;
+    padding-left: 1rem;
+  }
+  .backg-carousel {
+    background: #e6f7ff;
+    padding-top: 0;
+  }
+  .name-title {
+    padding-left: 1rem;
+  }
+  .text-container-color {
+    background-color: white;
+  }
+  .stay-updated {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 922px) {
+  .stay-updated {
+    font-size: 26px;
+  }
+  .input-field-signup {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: bold;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-jurisdiction-what-we-need .what-we-need-paragraph {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .text-jurisdiction-what-we-need .what-we-need-paragraph {
+    margin-right: 1rem;
+  }
+}
