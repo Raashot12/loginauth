@@ -46,7 +46,7 @@ const Register = () => {
         gridTemplateAreas: "20%",
       }}
     >
-      <form onSubmit={handleSubmit}>
+      <form>
         <h2 style={{ textAlign: "center" }}>Register</h2>
         <label>
           First Name:
@@ -108,7 +108,9 @@ const Register = () => {
             required
           ></input>
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit" onSubmit={handleSubmit}>
+          Submit
+        </button>
       </form>
       {userstate && (
         <p

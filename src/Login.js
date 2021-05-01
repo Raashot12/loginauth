@@ -1,17 +1,30 @@
-import React from "react";
-import { useHistory } from "react-router-dom";
+import React, { useState } from "react";
+import { useHistory, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import LoginHook from "./LoginHook";
 
 const Login = () => {
-  const [login, handleChange] = LoginHook();
+  const [login, setLogin] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    password: "",
+    id: "",
+  });
   //   const [user, setUser] = useState(null);
   const history = useHistory();
 
   const notify = () => {
     toast.success("Congratulation you have Login Successfully", {
       position: toast.POSITION.TOP_CENTER,
+    });
+  };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setLogin({
+      ...login,
+      [name]: value,
     });
   };
   const handleSubmit = (event) => {
@@ -53,7 +66,7 @@ const Login = () => {
         gridTemplateAreas: "20%",
       }}
     >
-      <form onSubmit={handleSubmit}>
+      <form>
         <h2 style={{ textAlign: "center" }}>Welcome Back</h2>
         <label>
           First Name:
@@ -115,7 +128,10 @@ const Login = () => {
             required
           ></input>
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit" onSubmit={handleSubmit}>
+          Submit
+        </button>
+        <Link to="/"> Register here</Link>
       </form>
     </div>
   );
